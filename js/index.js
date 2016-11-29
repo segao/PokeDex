@@ -8,7 +8,6 @@ function reset() {
  $('.types').empty();
  $('.moves').empty();
  $('.movetype').empty();
- $('.species').empty();
  $('.abilities').empty();
  $('.hp').empty();
  $('.attack').empty();
@@ -51,7 +50,6 @@ function getPokemon() {
 function getDescription() {
   $.getJSON('http://pokeapi.co/api/v1/pokemon/' + num + '/', function(data) {
     $('.name').append(data.name);
-    $('.species').append(data.species);
     $('.height').append(data.height + "m");
     $('.weight').append(data.weight + "kg");
     $('.hp').append("HP: " + data.hp);
