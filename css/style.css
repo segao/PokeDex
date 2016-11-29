@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline");
+body {
+  background-color: #161616;
+  color: #202618;
+}
+a {
+  color: #202618;
+}
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.sidebar li:hover {
+  background-color: rgba(58, 60, 70, 0.8); 
+}
+table {
+  margin-left: -25px;
+  padding: 0px;
+}
+td {
+  float: left;
+  padding: 0px;
+}
+ol {
+  list-style: none;
+  white-space: no-wrap;
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+.types li {
+  font-family: 'Bungee Hairline', cursive;
+  display: inline;
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.pokedex {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -275px;
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+  text-align: center;
+}
+.main {
+  width: 600px;
+  height: 550px;
+  background-color: rgba(221, 7, 35, 1);
+}
+
+.borders {
+  border-right: 10px solid rgba(255, 255, 255, 0.3);
+  border-left: 7px solid rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  width: 300px;
+  height: 550px;
+  background-color: rgba(221, 7, 35, 1);
+  text-align: left;
+}
+
+.sidebar .inner {
+  width: 100%;
+  margin-top: 15px;
+  height: 520px;
+  background-color: #D5D8C5;
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.inner {
+  margin-top: 15px;
+  background-color: #D5D8C5;
+  padding: 10px;
+  border-radius: 10px;
+  color: #202618;
+}
+
+.move {
+  color: #202618;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 230px;
+  width: 330px;
+  background-color: #D5D8C5;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: left;
+}
+
+.stats {
+  text-align: left;
+  color: #202618;
+  margin-top: 15px;
+  margin-left: 18px;
+  height: 230px;
+  width: 200px;
+  background-color: #D5D8C5;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.borders:before {
+  content: " ";
+  position: absolute;
+  left: 290px;
+  height: 500px;
+  z-index: -1;
+  border: 3px solid rgba(200, 0, 0, 0.8);
+}
+
+.tab {
+  position: relative;
+	border-bottom: 50px solid rgba(221, 7, 35, 1);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+  margin-left: -8px;
+	width: 283px;
+  text-align: center;
+  font-size: 30px;
+}
+.tab2 {
+  position: absolute;
+	border-bottom: 50px solid rgba(255, 0, 0, 0.7);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+  margin-left: -15px;
+	width: 300px;
+}
+
+.rows {
+  display: table-column;
+}
+
+.greenlight {
+	width: 10px;
+	height: 10px;
+	background: #62F91E;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+  margin-top: -5px;
+  margin-left: 245px;
+  z-index: 99;
+  position: absolute;
+}
+
+.yellowlight {
+	width: 10px;
+	height: 10px;
+	background: #FEE818;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+  margin-top: -5px;
+  margin-left: 225px;
+  z-index: 99;
+  position: absolute;
+}
+
+.redlight {
+	width: 10px;
+	height: 10px;
+	background:	#B61203;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+  margin-top: -5px;
+  margin-left: 205px;
+  z-index: 99;
+  position: absolute;
+}
+
+.bluelight {
+	width: 25px;
+	height: 25px;
+	background:	#00FDF9;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+  margin-top: -40px;
+  margin-left: 20px;
+  z-index: 99;
+  position: absolute;
+}
+
+.type {
+  border-radius: 5px;
+  display: table-row;
+  padding: 3px;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.grass {
+  background-color: green; 
+  color: white;
+}
+.water {
+  background-color: blue;
+  color: white;
+}
+.fire {
+  background-color: red;
+  color: white;
+}
+.electric {
+  background-color: yellow;
+  color: black;
+}
+.poison {
+  background-color: purple;
+  color: white;
+}
+.normal {
+  background-color: #f9f9ed;
+  color: black;
+}
+.fighting {
+  background-color: #f49b00;
+  color: white;
+}
+.ground {
+  background-color: #9b660a;
+  color: white;
+}
+.rock {
+  background-color: #cea358;
+  color: white;
+}
+.ghost {
+  background-color: #4d1ee8;
+  color: white;
+}
+.psychic {
+  background-color: #c55fe8;
+  color: white;
+}
+.fairy {
+  background-color: #f7a3ff;
+  color: white;
+}
+
+.steel {
+  background-color: #888c8b;
+  color: white;
+}
+.dragon{
+  background-color: #276296;
+  color: white;
+}
+.bug{
+  background-color: #ecff77;
+  color: black;
+}
+.dark{
+  background-color: #20211d;
+  color: white;
+}
+.flying{
+  background-color: #c6f8ff;
+  color: black;
+}
+
+.footer {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  margin-top: 325px;
+  margin-left: 380px;
+}
