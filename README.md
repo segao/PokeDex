@@ -1,3 +1,3 @@
 # PokeDex
-A web application to search for pokemon dex entries.
-<br>[>>View on Codepen<<](http://codepen.io/segao/full/WoZMMJ) 
+A web application to search for pokemon dex entries for the first 151 pokemon.
+<br>[>>View Project<<](https://cdn.rawgit.com/segao/PokeDex/master/index.html) 
